@@ -9,14 +9,13 @@
 - **Gestión de Usuarios:** Autenticación y autorización con JWT.
 - **Gestión de Foros:** Crear y visualizar temas y respuestas.
 - **Gestión de Cursos:** Asociar cursos con temas y categorías.
-- **Documentación de API:** Generada automáticamente con Swagger.
 - **Seguridad:** Roles y permisos implementados con Spring Security.
 
 ---
 
 ## Arquitectura del Sistema
 
-El proyecto sigue una **arquitectura por capas**:
+Se utiliza **arquitectura por capas**:
 
 1. **Capa API:** Controladores REST y configuraciones de seguridad.
 2. **Capa de Dominio:** Entidades, repositorios y DTOs.
@@ -35,7 +34,7 @@ El proyecto sigue una **arquitectura por capas**:
 
 ### Configuración de Base de Datos
 
-1. Crear una base de datos en MySQL.
+1. Crear una base de datos en MySQL Workbench, de preferencia.
 2. Actualizar las credenciales en `application.properties`:
 
 ```properties
@@ -44,7 +43,7 @@ spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
 
 ```
-#Endpoints
+##Endpoints
 
 | Método | Endpoint    | Descripción                       |
 | ------ | ----------- | --------------------------------- |
