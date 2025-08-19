@@ -43,7 +43,7 @@ spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
 
 ```
-##Endpoints
+## Endpoints
 
 | Método | Endpoint    | Descripción                       |
 | ------ | ----------- | --------------------------------- |
